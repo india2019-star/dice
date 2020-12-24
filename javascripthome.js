@@ -12,8 +12,8 @@
         }
          var imageforplayer1 = "dice" + n1 + ".png";
          var imageforplayer2 = "dice" + n2 + ".png";
-         document.querySelectorAll("img")[0].setAttribute("src",("dicegameimages/" + imageforplayer1));
-         document.querySelectorAll("img")[1].setAttribute("src",("dicegameimages/" + imageforplayer2));
+         document.querySelectorAll("img")[0].setAttribute("src",(imageforplayer1));
+         document.querySelectorAll("img")[1].setAttribute("src",(imageforplayer2));
          if(n1 > n2)
          {
              document.querySelector("#result").textContent = name1 + " Wins.";
