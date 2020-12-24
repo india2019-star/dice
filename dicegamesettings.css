@@ -1,0 +1,58 @@
+body{
+    background: url("https://jooinn.com/images/scattered-blue-lights.jpg") no-repeat;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+
+.btn{
+    margin-left: 500px;
+}
+
+#player1, #player2{
+    font-size: 24 em;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fffee7;
+    margin: 20px;
+    
+}
+
+#result
+{
+    color: #fffee7;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+
+@media (min-width: 300px) and (max-width:992px)
+{
+    img{
+        width: 90px;
+        height: 90px;
+        
+        
+    }
+    #player1, #player2{
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fffee7;
+    
+    
+}
+.btn{
+    margin-left: 200px;
+}
+#result
+{
+    font-size: 20px;
+}
+
+}

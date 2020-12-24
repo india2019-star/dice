@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dice Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="dicegamesettings.css" type="text/css">
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+                    <h2 id="player1" class="text-center">Player 1</h2><br><br>
+                    <img src="dicegameimages/dice1.png" alt="dicepics">
+                </div>
+                <div class="col-lg-6 col-sm-6 col-md-6 col-xs-6">
+                    <h2 id="player2" class="text-center">Player 2</h2><br><br>
+                    <img  src="dicegameimages/dice1.png" alt="dicepics">
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="diceresult()">Play</button><br><br><hr>
+            <div id="result" class="text-center"><strong></strong></div>
+        </div>
+        <script src="javascripthome.js"></script>
+    </body>
+</html>
